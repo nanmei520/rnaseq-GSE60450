@@ -28,7 +28,7 @@
      ↓ MultiQC（汇总）
     ↓ Trimmomatic（去接头 / 过滤低质量碱基）
     ↓ FastQC（对去接头后的数据进行质控）
-    ↓ FastQC（再次汇总）
+    ↓ MultiQC（再次汇总）
     ↓ STAR（建索引 + 比对）→ BAM 文件
     ↓ featureCounts（基因计数）→ 计数矩阵
     ↓ R中读取计数矩阵，构建样本信息表和创建DESeqDataSet对象
